@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Research - WaveLens</title>
+  <meta name="description" content="Academic webpage of WaveLens">
+  <link rel="stylesheet" href="/WaveLens/assets/main.css">
+  <link rel="canonical" href="https://yongpeng25.github.io/WaveLens/research/">
+  <link rel="shortcut icon" type ="image/x-icon" href="https://yongpeng25.github.io/WaveLens/wavelens.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+  <link rel="preconnect" href="https://player.vimeo.com">
+  <link rel="preconnect" href="https://i.vimeocdn.com">
+  <link rel="preconnect" href="https://f.vimeocdn.com">
+
+
+
+<!-- Google Analytics (original) -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<script>
+MathJax = {
+    tex: {
+    inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+    tags: 'ams'  // should be 'ams', 'none', or 'all' }. This line makes the equation numbering and labeling work
+    }, 
+    svg: {
+    fontCache: 'global'
+    }
+};
+</script>
+<script
+    type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script> 
+
+</head>
+
+
+  <body>
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+  <div class="container d-flex align-items-center justify-content-center" style="gap: 20px;">   
+    <a class="navbar-brand" href="https://yongpeng25.github.io/WaveLens/" style="margin-left: 165px;">
+      <img src="https://yongpeng25.github.io/WaveLens/wavelens.png" width="43.5" height="30" style="margin-right:5px;" class="d-inline-block align-top" alt="">
+      WaveLens
+    </a>
+
+    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <div class="navbar-nav d-flex flex-row align-items-center" style="gap: 15px;">
+        <a class="nav-item nav-link" href="https://yongpeng25.github.io/WaveLens/">Home</a>
+               
+          <a class="nav-item nav-link" href="https://yongpeng25.github.io/WaveLens/about">About</a>
+               
+          <a class="nav-item nav-link" href="https://yongpeng25.github.io/WaveLens/team">Team</a>
+               
+          <a class="nav-item nav-link" href="https://yongpeng25.github.io/WaveLens/research">Research</a>
+               
+          <a class="nav-item nav-link" href="https://yongpeng25.github.io/WaveLens/publications">Publications</a>
+               
+          <a class="nav-item nav-link" href="https://yongpeng25.github.io/WaveLens/software">Software</a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div id="gridid" class="col-sm-12 col-xs-12">
+  <style>
+img{
+  border-radius: 10px;
+}
+.col-md-3 {
+  margin-top:10px;
+  margin-bottom:10px;
+  padding:0px;
+  display:block;
+  overflow:hidden;
+  text-align:center;
+  display: table-cell;
+  background: white;
+  border-radius: 20px;
+  height: auto;
+}
+iframe {
+  margin:0;
+  padding:0;
+  width: 175px;
+  display: inline;
+  vertical-align: middle;
+}
+</style>
+
+<h2 id="full-waveform-inversion">Full-waveform Inversion</h2>
+
+<div class="jumbotron">
+  <div class="col-md-12 col-sm-12">
+    <h4>Localized adaptive waveform inversion</h4>
+    <p>The Localized Adaptive Waveform Inversion (LAWI) method is proposed to significantly enhance the robustness of seismic full-waveform inversion. Traditional correlation-, deconvolution-, and AWI-based misfit functions rely on the assumption of a stationary time shift between observed and predicted data—an assumption rarely satisfied in complex geological settings. LAWI overcomes this limitation by introducing Gabor-domain local matching filters that estimate instantaneous, time–frequency-dependent phase shifts, allowing the inversion to correctly align complex phase events and greatly mitigate cycle skipping.</p>
+
+    <p>Building on this framework, I further examined two regularization strategies for Gabor deconvolution—minimum-norm and delta-type filters—to improve the stability and interpretability of the estimated matching filter. In particular, the delta-type regularization enables LAWI to incorporate additional observed phases that are not predicted by the initial model, extending the method’s ability to handle challenging data scenarios.</p>
+
+    <p>These developments have been validated through both 2-D synthetic benchmarks and a high-quality 3-D North Sea field data set. Across all tests, LAWI delivers reliable P-wave velocity models without the extensive data-windowing or parameter tuning required by alternative approaches, demonstrating a robust, phase-driven solution well suited for modern seismic imaging applications.</p>
+
+    <div style="display: flex; justify-content: center; gap: 10px;">
+      <p><img src="https://yongpeng25.github.io/WaveLens/images/research/valhall_init.png" style="width: 49%;" alt="Image 1" />
+  <img src="https://yongpeng25.github.io/WaveLens/images/research/valhall_lawi.png" style="width: 49%;" alt="Image 2" /></p>
+    </div>
+    <p style="text-align: center;">LAWI applied to 3-D field data: simple initial model (left) and inversion result (right) </p>
+
+  </div>
+</div>
+
+<div class="jumbotron">
+  <div class="col-md-12 col-sm-12">
+    <h4>Optimal transport</h4>
+    <p>We developed a Wasserstein-metric (W1) full waveform inversion framework to reduce the strong local-minima issues in conventional L2-based FWI. By measuring the minimal “transport cost’’ between seismograms, W1 naturally accounts for time and space shifts and provides a more convex misfit. We introduce a decomposition–recombination strategy and a GPU-accelerated primal–dual solver to efficiently compute the dynamic W1 metric. Tests show that W1 captures time shifts, mitigates cycle skipping, and delivers reliable velocity models—demonstrated on the SEG 2014 benchmark—even without low-frequency data.</p>
+
+    <center>
+<img src="https://yongpeng25.github.io/WaveLens/images/research/Yong_2019_JCP.gif" width="100%" /><br />
+SEG 2014 benchmark data test using the W1 metric <br />
+</center>
+
+  </div>
+</div>
+
+<div class="jumbotron">
+  <div class="col-md-12 col-sm-12">
+    <h4>Total variation regularization for salt inversion</h4>
+    <p>We developed a total-variation–constrained full waveform inversion (TV-FWI) framework to address one of the most challenging problems in seismic imaging: robust salt reconstruction without low-frequency data. Traditional FWI often becomes trapped in local minima when the starting model is inaccurate, especially in salt provinces where strong velocity contrasts lead to highly nonlinear data–model relationships.</p>
+
+    <p>To overcome this issue, we introduce an adaptive primal–dual hybrid gradient algorithm that projects each iteration onto a convex set defined by total-variation and box constraints. This ensures that the model maintains geologically plausible, near-constant salt velocities while permitting gradual updates from smooth background structure to detailed salt boundaries.</p>
+
+    <p>Our workflow successfully recovers complex salt bodies in the BP 2004 and 2D SEG/EAGE salt models, starting from a simple linear-gradient velocity model and using no data below 3 Hz. The results demonstrate that TV-constrained wavefield reconstruction inversion can reliably overcome local minima and reconstruct salt structures layer by layer.</p>
+
+    <center>
+<img src="https://yongpeng25.github.io/WaveLens/images/research/Yong_2018_TVR.gif" width="100%" /><br />
+The salt body is reconstructed from top to bottom using constrained total variation regularization <br />
+</center>
+
+  </div>
+</div>
+
+<h2 id="structral-imaging">Structral imaging</h2>
+<div class="jumbotron">
+  <div class="col-md-12 col-sm-12">
+    <h4>Least-squares reverse time migration</h4>
+    <p>We developed a robust framework for least-squares reverse time migration (LSRTM) by introducing the Wasserstein-1 (W1) metric as a powerful alternative to the conventional L2 misfit. Unlike traditional norms, the W1 metric leverages dynamic optimal transport to compare seismograms in a physically meaningful way, naturally handling amplitude variations and suppressing non-Gaussian noise. An efficient primal–dual algorithm enables fast computation of W1 in the time domain.</p>
+
+    <p>Through extensive synthetic and field data tests, we show that W1-based LSRTM converges faster, produces cleaner images, and requires virtually no parameter tuning—unlike hybrid L1/L2 methods that demand iterative threshold adjustments. On field data, the W1 metric consistently yields the most reliable subsurface images among all tested misfit functions.</p>
+
+    <p>This work demonstrates that the Wasserstein metric provides a highly robust, automatic, and noise-resilient solution for next-generation LSRTM and seismic imaging.</p>
+
+    <center>
+<img src="https://yongpeng25.github.io/WaveLens/images/research/Yong_2019_LSM.gif" width="100%" /><br />
+Comparison of RTM and LSRTM with the W1 metric for land data <br />
+</center>
+
+  </div>
+</div>
+
+<h2 id="forward-modeling">Forward modeling</h2>
+<div class="jumbotron">
+  <div class="col-md-12 col-sm-12">
+    <h4>Overset Virieux-Lebedev FDTD</h4>
+    <p>To be updated …</p>
+  </div>
+</div>
+
+<h2 id="machine-learning">Machine Learning</h2>
+<div class="jumbotron">
+  <div class="col-md-12 col-sm-12">
+    <h4>Koopman Neural Operator</h4>
+    <p>To be updated …</p>
+  </div>
+</div>
+
+<h2 id="signal-processing">Signal processing</h2>
+<div class="jumbotron">
+  <div class="col-md-12 col-sm-12">
+    <h4>Signal processing</h4>
+
+    <p>To be updated …</p>
+  </div>
+</div>
+
+</div>
+
+      </div>
+    </div>
+
+    <br/>
+<section id="footer">
+<div class="container-footer">
+  <div class="panel-footer">
+	  <div class="row">
+		<div class="col-sm-4">
+		    <h5>About</h5>	
+            <p>Peng Yong<br/> Institute of Acoustics<br/> Chinese Academy of Sciences
+</p>
+		</div>
+
+		<div class="col-sm-4">
+		    <h5>Contact</h5>	
+            <p>Email: yongpeng@mail.ioa.ac.cn Last updated on Nov 10, 2025
+</p>
+		</div>
+
+		<div class="col-sm-4">
+		    <h5>Coordinates</h5>	
+            <p>19 N 4th Ring W Rd, Haidian District<br/> Beijing, China, 100190
+</p>
+		</div>
+	  </div>
+
+      <center><p>&copy 2025 WaveLens </p></center>
+	</div>
+  </div>
+</div>
+
+<script src="/WaveLens/assets/javascript/bootstrap/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+
+</html>
